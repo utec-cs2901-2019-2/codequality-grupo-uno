@@ -17,7 +17,7 @@ public class Calculator {
     void sum(){
         adition = new Adition(firstOperand, secondOperand);
     }
-    void substract(){
+    void subtract(){
         substraction = new Substraction(firstOperand, secondOperand);
     }
     void multiply() {

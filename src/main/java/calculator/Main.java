@@ -46,7 +46,7 @@ public class Main {
                 LOGGER.log(Level.INFO, result);
             }
             if(operator == '-') {
-                calc.substract();
+                calc.subtract();
                 String result = Float.toString(calc.substraction.operate());
                 LOGGER.log(Level.INFO, result);
             }
