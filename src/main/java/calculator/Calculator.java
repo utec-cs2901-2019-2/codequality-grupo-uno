@@ -14,16 +14,16 @@ public class Calculator {
         this.secondOperand = secondOperand;
     }
 
-    void Sum(){
+    void sum(){
         adition = new Adition(firstOperand, secondOperand);
     }
-    void Substract(){
+    void substract(){
         substraction = new Substraction(firstOperand, secondOperand);
     }
-    void Multiply() {
+    void multiply() {
         multiplication = new Multiplication(firstOperand, secondOperand);
     }
-    void Divide() {
+    void divide() {
         division = new Division(firstOperand, secondOperand);
     }
 }

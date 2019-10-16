@@ -41,24 +41,24 @@ public class Main {
         else {
             Calculator calc = new Calculator(firstOperator, secondOperator);
             if(operator == '+' ) {
-                calc.Sum();
+                calc.sum();
                 String result = Float.toString(calc.adition.operate());
                 LOGGER.log(Level.INFO, result);
             }
             if(operator == '-') {
-                calc.Substract();
+                calc.substract();
                 String result = Float.toString(calc.substraction.operate());
                 LOGGER.log(Level.INFO, result);
             }
 
             if(operator == '*') {
-                calc.Multiply();
+                calc.multiply();
                 String result = Float.toString(calc.multiplication.operate());
                 LOGGER.log(Level.INFO, result);
             }
 
             if (operator == '/') {
-                calc.Divide();
+                calc.divide();
                 String result = Float.toString(calc.division.operate());
                 LOGGER.log(Level.INFO, result);
             }
