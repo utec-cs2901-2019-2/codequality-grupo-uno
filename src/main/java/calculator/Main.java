@@ -14,23 +14,23 @@ public class Main {
         float secondOperator = 0;
         char operator=' ';
         String input = sc.next();
-        String [] arrof = input.split("[+-/*]");
-        firstOperator = Integer.parseInt(arrof[0]);
-        secondOperator = Integer.parseInt(arrof[1]);
-        int plus = input.indexOf('+');
-        int minus = input.indexOf('-');
-        int mul = input.indexOf('*');
-        int div = input.indexOf('/');
-        if(plus >= 0){
+        String [] parser = input.split("[+-/*]");
+        firstOperator = Integer.parseInt(parser[0]);
+        secondOperator = Integer.parseInt(parser[1]);
+        int addition = input.indexOf('+');
+        int substraction = input.indexOf('-');
+        int multiplication = input.indexOf('*');
+        int division = input.indexOf('/');
+        if(addition >= 0){
             operator='+';
         }
-        if(minus >= 0){
+        if(substraction >= 0){
             operator='-';
         }
-        if(mul >= 0){
+        if(multiplication >= 0){
             operator='*';
         }
-        if(div >= 0){
+        if(division >= 0){
             operator='/';
         }
 
